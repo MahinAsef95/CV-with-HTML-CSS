@@ -1,0 +1,177 @@
+/* Default margin and padding remove */
+
+/* Header Section Design */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: #EEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+
+    max-width: 1000px;
+    background-color: gray;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.profile-image{
+
+    height: 120px;
+    width: 100px;
+    
+    /* border: 2px solid whitesmoke; */
+    border-radius: 50%;
+
+    float: left;
+}
+
+.header-bio{
+
+    float: left;
+    padding: 30px;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+    color:turquoise ;
+}
+
+.header-contact{
+
+    float: right;
+    padding: 30px;
+    
+}
+
+.header-contact a{
+    
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+.header-contact a:hover{
+
+    text-decoration: underline;
+    color: tomato;
+}
+
+/* Header Section Design ends */
+
+.div-clear{
+
+    clear: both;
+}
+
+hr{
+    border: solid black ;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+
+/* Personal Section Design start */
+
+#personal-section{
+
+    margin: 30px;
+
+}
+
+.left-div{
+    
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: right;
+    text-align: justify;
+}
+
+.common-hr{
+
+    border: solid black 1px;
+    margin: 20px auto;
+    border-bottom: none;
+    width: 100%;
+}
+
+/* Personal Section Design ends */
+
+/* Work Experience Section Design start */
+
+#work-section{
+
+    margin: 30px;
+}
+
+/* Work Experience Section Design ends */
+
+
+/* Key skill Section Design Start */
+
+#key-skill-section{
+
+    margin: 30px;
+}
+
+/* Key skill Section Design Ends */
+
+/* Education Section Design Start */
+
+#education-section{
+
+    margin: 30px;
+}
+
+.edu-left{
+
+    width: 45%;
+    float: left;
+}
+
+.edu-right{
+
+    width: 45%;
+    float: right;
+}
+
+/* Education Section Design Ends */
+
+
+/* Footer Section Design Start */
+
+
+ #bottom-container{
+
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+
+ }
+
+ #bottom-container a{
+
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+ }
+
+ #bottom-container p{
+
+    color: white;
+    margin-top: 20px;
+ }
+
+
+/* Footer Section Design Ends */
